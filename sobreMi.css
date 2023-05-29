@@ -1,0 +1,17 @@
+.about__title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.about__paragraph{
+    text-align: center;
+    font: icon;
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+    .about__container{
+    display: none;
+}
+}

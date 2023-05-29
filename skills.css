@@ -1,0 +1,40 @@
+.skills__title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+}
+
+.skills__line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills__box{
+    margin-top: auto;
+}
+
+.skills__img img{
+    width: 80px;
+}
+
+.skills__imgcss img{
+    width: 100px;
+    align-items: center;
+}
+
+
+.skills__name{
+    text-align:center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+@media (max-width: 425px) {
+    .skills__line{
+        flex-direction: initial;
+        flex-wrap: wrap;
+    }
+}

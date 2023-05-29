@@ -1,0 +1,342 @@
+form{
+    background-image: none;
+    border-radius: 45px;
+    text-align: center;
+    width: 450px;
+    margin-top: 15px;
+   
+}
+
+form h2{
+    background: none;
+    background-color: cornsilk;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.26);
+    border-radius: inherit;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: lightseagreen;}
+
+form h3{
+    background: none;
+    background-color: cornsilk;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.26);
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    color: lightseagreen;
+}
+
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(187 0 0);
+    padding-top: 20px;
+    background: none;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-style: oblique;
+
+}
+
+.formcontato__text{
+    width: 460px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: none;
+    background-color: aliceblue;
+    border-radius: 27px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.26);
+}
+
+.formcontato__text:hover{
+    box-shadow: 7px 7px 7px rgb(44, 124, 174);
+    transition: 0.5s;
+}
+
+
+.formcontato__input{
+    width: 400px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 20px;    
+    font-family: serif;
+    font-size: 20px;
+    background: none;
+    background-color: cornsilk;
+    color: darkcyan;
+    border-color: darkgrey;
+    text-align: center;
+}
+
+.formcontato__input:focus{
+  outline-color: darkcyan; 
+  font-size: 22.5px;
+}
+
+.formcontato__input:hover{
+    border-color:rgb(44, 124, 174);
+    cursor: pointer;
+}
+
+.formcontato__contacto{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.formcontato__textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 120px;
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 20px;
+    background: none;
+    background-color: cornsilk;
+    color: darkcyan;
+    outline-color: darkcyan;
+    text-align: center;
+}
+
+.formcontato__textarea:hover{
+    border-color:rgb(44, 124, 174);
+    font-size: 22.5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: none;
+    border-radius: 5px;
+    
+}
+
+.formcontato__img{
+    width: 450px;
+    height: 230px;
+    
+}
+
+.formacion_imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.botones button{
+    background: none;
+    width: 150px;
+    height: 30px;
+    color:white;
+    background-color:lightseagreen ;
+    border-radius: 20px;
+}
+
+.botones button:hover{
+    cursor: pointer;
+    border-color:rgb(44, 124, 174);
+}
+
+.botones input{
+    background: none;
+    width: 150px;
+    height: 30px;
+    color:white;
+    background-color:lightseagreen ;
+    border-radius: 20px;
+    
+}
+
+.botones input:hover{
+    cursor: pointer;
+    border-color:rgb(44, 124, 174);
+}
+
+.formcontato--esquerda1{
+    position: relative;
+    width: 550px;
+    height: 230px;
+    margin-top: 70px;
+    background: url("assets/image2\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;    
+    
+}
+
+.formcontato--esquerda2{
+    overflow: hidden;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor:none;
+    margin-top: 20px; 
+}
+
+.formcontato--esquerda2 img{
+    width: 550px;
+    transition: 2s;
+}
+
+.formcontato--esquerda2:hover{
+box-shadow: 0 0 10px rgb(44, 124, 174);}
+
+.formcontato--esquerda2 img:hover{
+    transform: scale(1.5);    
+}
+
+
+.formcontato--esquerda3{
+    width: 550px;
+    height: 250px;
+    overflow: hidden;
+    cursor: cell;    
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.formcontato--esquerda3 img{
+    width: 850px;
+    height: 100%;
+    transition: 2s;    
+}
+
+.formcontato--esquerda3 img:hover{
+   transform: translateX(-30%);
+   filter: brightness(80%);
+}
+
+/* Corazon */
+
+i {
+    color: red;
+    position: absolute;
+    font-size: 30px;
+    opacity: 0;
+    background-image: none;
+  }
+  
+  i.active {
+    animation: heart 1s linear forwards;
+  }
+  
+  @keyframes heart {
+    10% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(1.1);
+    }
+    90% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .formcontato__contacto{
+        flex-wrap: wrap;}
+    .formcontato__text{
+        margin-top: 30px;
+        width: 600px;
+    }
+    .formcontato__input{
+        width:440px;
+        margin-left: 0px;
+    }
+    .botones button {
+        width: 180px;
+    }
+    .botones input{
+        width: 180px;
+    }
+    .formcontato__textarea{
+        width: 440px;
+        margin-left: 0;
+    }
+    .formcontato--esquerda1{
+        margin-top: 0px;
+        
+    }
+    
+}
+@media (max-width: 425px) {
+    .formacion_imagenes{
+        display: none;
+    }
+
+    .formcontato__text{
+        width: 400px;
+        margin-top: 10px;
+    
+    }
+
+    .formcontato__input{
+        width: 350px;
+        margin: auto;
+        margin-bottom: 15px;
+        height: 38px;
+    }
+
+    .formcontato__textarea{
+        width: 350px;
+        margin: auto;
+        margin-bottom: 15px;
+        height: 70px;
+    }
+
+    .botones{
+        justify-content: center;
+    }
+
+
+    .formcontato__subtext{
+        width: 335px;
+    
+    }
+
+    .formcontato__form{
+        align-items: inherit;
+    }
+
+    .formcontato__title{
+        width: 170px;
+    }
+
+    /* .formcontato__subtext{
+        font-size: smaller;
+    } */
+}

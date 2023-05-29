@@ -1,0 +1,100 @@
+.section.experience{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.experience__section__title{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contenedorAcademico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.experience__img{
+    width: 340px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    padding: inherit;
+    margin-top: -20px;
+    height: 192px;
+    
+}
+
+.experience__img:hover {
+    border: solid 5px rgb(24, 106, 59 );
+}
+
+.experiencie__box{
+    width: 300px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+
+.experience__info-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience__description button{
+    background: none;
+    width: 140px;
+    height: 25px;
+    color:white;
+    background-color:lightseagreen ;
+    border-radius: 20px;
+    
+}
+
+.experience__demo{
+    margin-left: 5px;
+}
+
+.experience__description button:hover{
+    border-color:rgb(44, 124, 174);
+    cursor: pointer;   
+    
+}
+
+@media (max-width: 768px){
+    .experience__img{
+    width: 450px;
+    margin-top: 0;
+ }
+    .experience__description button{
+        width: 180px;
+        height: 35px;
+    }
+
+    .experience__info-container{
+        width: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .experience__img{
+        width: auto;
+    }
+
+    .experience__description button{
+        width: 110px;
+        height: 25px
+    
+    }
+}

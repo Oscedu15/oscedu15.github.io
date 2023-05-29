@@ -1,0 +1,16 @@
+.hobbies__line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbies__title{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hobbies{
+        display: none;
+    }
+    
+}
+
